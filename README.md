@@ -123,7 +123,7 @@ python -m pytest --cov=server --cov-report=term server_test_suite.py
 - Authentication requests are logged into the `auth_logs` table.
 - Information such as request IP, timestamp, and user ID are recorded for auditing purposes.
 
-## Rate Limiting (Optional)
+## Rate Limiting 
 - The `/auth` endpoint has a rate limit of 10 requests per second.
 - Requests exceeding this limit return a `429 Too Many Requests` status.
 
